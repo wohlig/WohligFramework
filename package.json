@@ -1,12 +1,14 @@
 {
-  "name": "WohligFramework",
+  "name": "wohlig-framework",
   "version": "1.0.0",
   "description": "Wohlig Framework",
   "main": "app.js",
   "repository": "https://github.com/WohligTechnology/WohligFramework.git",
   "author": "Chintan Shah <chintan@wohlig.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
   "dependencies": {
     "async": "^2.6.1",
     "body-parser": "^1.18.3",
