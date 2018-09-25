@@ -7,7 +7,7 @@
   "author": "Chintan Shah <chintan@wohlig.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "async": "^2.6.1",
