@@ -1,4 +1,6 @@
-import app from "express"
-app.listen(3000, () => {
-    console.log("Chintan")
+import express from "express"
+const app = express()
+const port = 3000
+app.listen(port, () => {
+    console.log(`Server Started at Port ${port}`)
 })
