@@ -1,2 +1,2 @@
-import express from "express";
-console.log(express);
+import app from "express"
+app.listen(3000, () => {})
