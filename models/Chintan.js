@@ -1,3 +1,4 @@
 module.exports = {
-    name: "Chintan"
+    name: String,
+    designation: String
 };
