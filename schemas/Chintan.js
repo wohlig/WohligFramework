@@ -1,5 +1,20 @@
-var Schema = mongoose.Schema;
-var schema = new Schema(global.Chintan);
-module.exports = mongoose.model('Chintan', schema);
-var model = {};
-module.exports = _.assign(module.exports, model);
+var schema = new Schema({
+    title: String,
+    author: String,
+    body: String,
+    comments: [{
+        body: String,
+        date: Date
+    }],
+    date: {
+        type: Date,
+        default: Date.now
+    },
+    hidden: Boolean,
+    meta: {
+        votes: Number,
+        favs: Number
+    }
+})
+
+export default schema
