@@ -1,6 +1,5 @@
-const controller = {
+export default {
     profile: () => {
         // console.log("In Here");
     }
 }
-export default controller
