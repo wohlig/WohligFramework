@@ -1,6 +1,3 @@
-import express from "express"
-const app = express()
-const port = 3000
 import "./lib/express.js"
 import "./config/globals"
 import "./lib/controllers.js"
