@@ -9,7 +9,7 @@
     "scripts": {
         "start": "nodemon index.js",
         "build": "docker build -t wohlig/wohlig-framework:latest .",
-        "serve": "docker run -p 80:80 wohlig/wohlig-framework:latest"
+        "serve": "docker run -p 3000:3000 wohlig/wohlig-framework:latest"
     },
     "dependencies": {
         "async": "^2.6.1",

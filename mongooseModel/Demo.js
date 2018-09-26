@@ -16,5 +16,4 @@ var schema = new Schema({
         favs: Number
     }
 })
-
-export default schema
+export default mongoose.model("Demo", schema)

@@ -5,7 +5,7 @@ COPY package.json .
 COPY yarn.lock . 
 RUN yarn install
 COPY . .
-EXPOSE 80
+EXPOSE 3000
 CMD ["pm2-runtime", "process.yml"]
 
 
