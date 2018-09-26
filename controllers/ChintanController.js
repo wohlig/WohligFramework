@@ -1,5 +1,3 @@
-export default {
-    profile: () => {
-        // console.log("In Here");
-    }
-}
+router.get('/', function (req, res) {
+    res.send('Birds home page')
+})
