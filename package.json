@@ -7,7 +7,9 @@
     "author": "Chintan Shah <chintan@wohlig.com>",
     "license": "MIT",
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "nodemon index.js",
+        "build": "docker build -t wohlig/wohlig-framework:latest .",
+        "serve": "docker run -p 80:80 wohlig/wohlig-framework:latest"
     },
     "dependencies": {
         "async": "^2.6.1",
