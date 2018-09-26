@@ -1,6 +1,6 @@
 apps:
   - script: "index.js"
-    name: "Wohlig Framework --port 3000"
+    name: "Wohlig Framework --port 80"
     watch: false
     args: "--prod"
     exec_mode: "cluster"
