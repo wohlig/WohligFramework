@@ -1,12 +1,32 @@
 const router = Router()
 router.get("/", function (req, res) {
-    StudentModel.search(req.query, res.callback)
+    StudentModel.search(req.query, (err, data) => {
+        if (err) {
+            res.json({
+                err: err
+            })
+        } else {
+            res.json({
+                data: data
+            })
+        }
+    })
 })
 router.get("/:id", function (req, res) {
-    res.send(`Get For Id ${req.params.id}`)
+    StudentModel.getOne(req.params, res.callback)
 })
 router.post("/", function (req, res) {
-    res.send("Save Data")
+    StudentModel.saveData(req.body, (err, data) => {
+        if (err) {
+            res.json({
+                err: err
+            })
+        } else {
+            res.json({
+                data: data
+            })
+        }
+    })
 })
 router.put("/:id", function (req, res) {
     res.send(`Update For Id ${req.params.id}`)
