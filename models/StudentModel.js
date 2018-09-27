@@ -8,12 +8,7 @@ export default {
         }).exec(callback)
     },
     saveData: (data, callback) => {
-        console.log("Data", data);
-        var a = new Student(data);
-        a.save(callback)
-    },
-    saveData: (data, callback) => {
-        Const = new Student(data)
-        Const.save(callback)
+        const student = new Student(data);
+        student.save(callback)
     }
 }
