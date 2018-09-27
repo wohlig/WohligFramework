@@ -24,5 +24,8 @@ module.exports = {
             "error",
             "never"
         ]
+    },
+    "globals": {
+        Router: true
     }
 };
