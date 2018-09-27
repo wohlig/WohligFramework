@@ -1,12 +1,9 @@
 const router = Router()
 router.get('/', function (req, res) {
-    // res.callback({
-    //     error: "Demo"
-    // }, null)
-    // res.callback(null, {
-    //     name: "Demo"
-    // });
-    res.callback();
+    res.callback({
+        name: "Chintan"
+    });
+    // StudentModel.search(req.query, res.callback);
 })
 router.get('/:id', function (req, res) {
     res.send(`Get For Id ${req.params.id}`)
