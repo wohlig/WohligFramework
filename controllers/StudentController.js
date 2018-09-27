@@ -1,6 +1,12 @@
 const router = Router()
 router.get('/', function (req, res) {
-    res.callback(null, null)
+    // res.callback({
+    //     error: "Demo"
+    // }, null)
+    // res.callback(null, {
+    //     name: "Demo"
+    // });
+    res.callback();
 })
 router.get('/:id', function (req, res) {
     res.send(`Get For Id ${req.params.id}`)
