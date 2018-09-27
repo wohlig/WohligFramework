@@ -1968,6 +1968,19 @@ which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
+"wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core.git":
+  version "0.0.1"
+  resolved "https://github.com/wohlig/wohlig-framework-core.git#3057c2133e27c9551e6e7e7f009a2abc6d0c4a1e"
+  dependencies:
+    async "^2.6.1"
+    body-parser "^1.18.3"
+    express "^4.16.3"
+    lodash "^4.17.10"
+    mongoose "^5.2.17"
+    request "^2.88.0"
+    require-all "^3.0.0"
+    yarn "^1.9.4"
+
 wordwrap@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
