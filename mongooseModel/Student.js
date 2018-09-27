@@ -3,4 +3,4 @@ var schema = new Schema({
     parent: String,
     email: String
 })
-export default mongoose.model("Demo", schema)
+export default mongoose.model("Student", schema)
