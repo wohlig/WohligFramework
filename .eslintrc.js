@@ -3,12 +3,14 @@ module.exports = {
         "browser": true,
         "es6": true
     },
+    "parser": "babel-eslint",
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
     },
     "rules": {
+        "no-undef": false,
         "indent": [
             "error", 4
         ],
@@ -26,6 +28,7 @@ module.exports = {
         ]
     },
     "globals": {
-        Router: true
+        "Router": true,
+        // "StudentModel": true
     }
 };
