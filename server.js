@@ -8,8 +8,6 @@ import "./lib/responses.js"
 import "./lib/controllers.js"
 import "./lib/models.js"
 import "./lib/services.js"
-
-
 app.listen(port, () => {
     console.log(`Server Started at Port ${port}`)
 })
