@@ -1808,9 +1808,9 @@ which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
-wohlig-framework-core@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/wohlig-framework-core/-/wohlig-framework-core-0.0.3.tgz#a1095f722428e4f4fc820e36e1268cffc44ee7db"
+wohlig-framework-core@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/wohlig-framework-core/-/wohlig-framework-core-0.0.4.tgz#50feb271c8f86e294f06a83516137b702a50105d"
   dependencies:
     body-parser "^1.18.3"
     express "^4.16.3"
