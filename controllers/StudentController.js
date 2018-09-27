@@ -1,30 +1,20 @@
 const router = Router()
-router.get("/", function (req, res) {
-    StudentModel.search(req.query, (err, data) => {
-        if (err) {
-            res.json({
-                err: err
-            })
-        } else {
-            res.json({
-                data: data
-            })
-        }
-    })
+router.get("/", (req, res) => {
+    StudentModel.search(req.query, res.callback)
 })
-router.get("/:id", function (req, res) {
+router.get("/:id", (req, res) => {
     StudentModel.getOne(req.params, res.callback)
 })
-router.post("/", function (req, res) {
+router.post("/", (req, res) => {
     StudentModel.saveData(req.body, res.callback)
 })
-router.put("/:id", function (req, res) {
+router.put("/:id", (req, res) => {
     res.send(`Update For Id ${req.params.id}`)
 })
-router.patch("/:id", function (req, res) {
+router.patch("/:id", (req, res) => {
     res.send(`Path For Id ${req.params.id}`)
 })
-router.delete("/:id", function (req, res) {
+router.delete("/:id", (req, res) => {
     res.send(`Delete For Id ${req.params.id}`)
 })
 export default router
