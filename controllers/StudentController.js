@@ -13,17 +13,7 @@ router.get('/', function (req, res) {
     })
 })
 router.get('/:id', function (req, res) {
-    StudentModel.getOne(req.params, (err, data) => {
-        if (err) {
-            res.json({
-                err: err
-            })
-        } else {
-            res.json({
-                data: data
-            })
-        }
-    })
+    StudentModel.getOne(req.params, res.callback)
 })
 router.post('/', function (req, res) {
     StudentModel.saveData(req.body, (err, data) => {
