@@ -1,5 +1,5 @@
 export default {
-    search: (callback) => {
-        callback()
+    search: (data, callback) => {
+        Student.find().exec(callback);
     }
 }
