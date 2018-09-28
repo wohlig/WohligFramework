@@ -8,7 +8,7 @@ export default {
         }).exec(callback)
     },
     saveData: (data, callback) => {
-        const student = new Student(data);
+        const student = new Student(data)
         student.save(callback)
     }
 }
