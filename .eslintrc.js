@@ -9,7 +9,8 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "no-undef": false,
+        "no-undef": 1,
+        "no-unused-vars": 1,
         "indent": [
             "error", 4
         ],
@@ -28,6 +29,11 @@ module.exports = {
     },
     "globals": {
         "Router": true,
-        // "StudentModel": true
+        "global": true,
+        "app": true,
+        "ajv": true,
+        "_": true,
+        "ValidateRequest": true,
+        "StudentModel": true
     }
 };
