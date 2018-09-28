@@ -988,7 +988,7 @@ file-entry-cache@^2.0.0:
 
 finalhandler@1.1.1:
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.1.tgz#eebf4ed840079c83f4249038c9d703008301b105"
+  resolved "http://registry.npmjs.org/finalhandler/-/finalhandler-1.1.1.tgz#eebf4ed840079c83f4249038c9d703008301b105"
   dependencies:
     debug "2.6.9"
     encodeurl "~1.0.2"
@@ -1329,8 +1329,8 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
 
 mongoose@^5.2.17:
-  version "5.2.17"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.2.17.tgz#8baeb60a675d00da03633d679a72457dbb5b2285"
+  version "5.2.18"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.2.18.tgz#d2dab8c5ed04dbe7916bf758b52f5ccd9db32c1c"
   dependencies:
     async "2.6.1"
     bson "~1.0.5"
@@ -1849,9 +1849,9 @@ which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
-"wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core":
+wohlig-framework-core@^0.0.6:
   version "0.0.6"
-  resolved "https://github.com/wohlig/wohlig-framework-core#aca952175b72bf7b8c3adf9eb1c9ffa6e2a8cbe2"
+  resolved "https://registry.yarnpkg.com/wohlig-framework-core/-/wohlig-framework-core-0.0.6.tgz#282fce5bb3f1c56ee9fb9bc22a2490ca340e48bd"
   dependencies:
     body-parser "^1.18.3"
     ejs "^2.6.1"

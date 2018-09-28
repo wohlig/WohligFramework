@@ -12,7 +12,7 @@
         "serve": "docker run -p 3000:3000 wohlig/wohlig-framework:latest"
     },
     "dependencies": {
-        "wohlig-framework-core": "https://github.com/wohlig/wohlig-framework-core"
+        "wohlig-framework-core": "^0.0.6"
     },
     "devDependencies": {
         "babel-preset-env": "^1.7.0",
