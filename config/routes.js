@@ -4,6 +4,8 @@
 
 const router = Router()
 router.get("/", (req, res) => {
-    res.send();
+    res.json({
+        page: "Home"
+    });
 })
 export default router
