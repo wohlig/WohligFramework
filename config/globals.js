@@ -9,10 +9,3 @@
 
 //     }
 // })
-const ObjectId = mongoose.Types.ObjectId
-ajv.addFormat("objectId", {
-    type: "string",
-    validate: (data) => {
-        return ObjectId.isValid(data)
-    }
-})
