@@ -34,6 +34,7 @@ module.exports = {
         "ajv": true,
         "_": true,
         "ValidateRequest": true,
-        "StudentModel": true
+        "StudentModel": true,
+        "mongoose": true
     }
 };
