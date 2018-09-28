@@ -782,6 +782,10 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
+ejs@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
+
 electron-to-chromium@^1.3.47:
   version "1.3.71"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.71.tgz#baecb282e8b27247bbfcf2f3e0254d6fe9a76789"
@@ -1810,9 +1814,10 @@ which@^1.2.9:
 
 "wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core.git":
   version "0.0.4"
-  resolved "https://github.com/wohlig/wohlig-framework-core.git#432879cea5ff30b468eab2797cf1f75697d2791e"
+  resolved "https://github.com/wohlig/wohlig-framework-core.git#36dba8c9de6cb8c67f04b7d597e32bbc19be089c"
   dependencies:
     body-parser "^1.18.3"
+    ejs "^2.6.1"
     express "^4.16.3"
     lodash "^4.17.10"
     mongoose "^5.2.17"

@@ -4,8 +4,8 @@
 
 const router = Router()
 router.get("/", (req, res) => {
-    res.json({
-        page: "Home"
+    res.render("home", {
+        name: "Wohlig Framework"
     });
 })
 export default router
