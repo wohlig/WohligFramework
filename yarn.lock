@@ -1822,9 +1822,9 @@ which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
-"wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core.git":
-  version "0.0.4"
-  resolved "https://github.com/wohlig/wohlig-framework-core.git#99bb281d59605a34e5e986ff640e72df4a6ba8a9"
+wohlig-framework-core@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/wohlig-framework-core/-/wohlig-framework-core-0.0.5.tgz#5093e44b3447ab7af4cb42875990867e4a817d66"
   dependencies:
     body-parser "^1.18.3"
     ejs "^2.6.1"
