@@ -1357,6 +1357,12 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
+node-cron@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/node-cron/-/node-cron-2.0.1.tgz#c30ba49a34a0123dec3ccfa3cda752f09a872954"
+  dependencies:
+    tz-offset "0.0.1"
+
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
@@ -1788,6 +1794,10 @@ type-is@~1.6.15, type-is@~1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
+tz-offset@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/tz-offset/-/tz-offset-0.0.1.tgz#fef920257024d3583ed9072a767721a18bdb8a76"
+
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
@@ -1814,13 +1824,14 @@ which@^1.2.9:
 
 "wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core.git":
   version "0.0.4"
-  resolved "https://github.com/wohlig/wohlig-framework-core.git#36dba8c9de6cb8c67f04b7d597e32bbc19be089c"
+  resolved "https://github.com/wohlig/wohlig-framework-core.git#99bb281d59605a34e5e986ff640e72df4a6ba8a9"
   dependencies:
     body-parser "^1.18.3"
     ejs "^2.6.1"
     express "^4.16.3"
     lodash "^4.17.10"
     mongoose "^5.2.17"
+    node-cron "^2.0.1"
     require-all "^3.0.0"
 
 wordwrap@~1.0.0:
