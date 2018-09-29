@@ -35,6 +35,7 @@ module.exports = {
         "_": true,
         "ValidateRequest": true,
         "StudentModel": true,
-        "mongoose": true
+        "mongoose": true,
+        "Schema": true
     }
 };
