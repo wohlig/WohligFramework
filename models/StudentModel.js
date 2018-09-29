@@ -1,5 +1,5 @@
 export default {
-    search: (data, callback) => {
+    search: (_query, callback) => {
         Student.find().exec(callback)
     },
     getOne: (data, callback) => {
