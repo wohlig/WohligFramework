@@ -1,6 +1,6 @@
 export default {
-    search: (_query, callback) => {
-        Student.find().exec(callback)
+    search: async function (_query, callback) {
+        callback(null, await Student.find().exec())
     },
     getOne: (data, callback) => {
         Student.findOne({
