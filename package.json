@@ -22,5 +22,55 @@
         "@babel/register": "^7.0.0",
         "@babel/runtime": "^7.1.2",
         "eslint": "^5.6.0"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": false,
+        "arrowParens": "always"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "es6": true
+        },
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "ecmaVersion": 8,
+            "sourceType": "module"
+        },
+        "rules": {
+            "no-undef": 1,
+            "no-unused-vars": 1,
+            "indent": [
+                "error",
+                4
+            ],
+            "linebreak-style": [
+                "error",
+                "unix"
+            ],
+            "quotes": [
+                "error",
+                "double"
+            ],
+            "semi": [
+                "error",
+                "never"
+            ]
+        },
+        "globals": {
+            "Router": true,
+            "global": true,
+            "app": true,
+            "ajv": true,
+            "_": true,
+            "ValidateRequest": true,
+            "StudentModel": true,
+            "mongoose": true,
+            "Schema": true,
+            "Student": true
+        }
     }
 }
