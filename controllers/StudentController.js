@@ -2,19 +2,23 @@ const router = Router()
 router.get("/", (req, res) => {
     StudentModel.search(req.query, res.callback)
 })
-router.get("/:id", ValidateRequest({
-    params: {
-        type: "object",
-        properties: {
-            id: {
-                type: "string",
-                format: "objectId"
+router.get(
+    "/:id",
+    ValidateRequest({
+        params: {
+            type: "object",
+            properties: {
+                id: {
+                    type: "string",
+                    format: "objectId"
+                }
             }
         }
+    }),
+    (req, res) => {
+        StudentModel.getOne(req.params, res.callback)
     }
-}), (req, res) => {
-    StudentModel.getOne(req.params, res.callback)
-})
+)
 router.post("/", (req, res) => {
     StudentModel.saveData(req.body, res.callback)
 })
