@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function(req, res) {
     return (err, data) => {
         if (err) {
             res.status(500).json(err)
