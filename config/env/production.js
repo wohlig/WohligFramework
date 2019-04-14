@@ -1,5 +1,6 @@
 export default {
     port: 3000,
-    mongodbUrl: "mongodb://localhost:27017/wohligFramework?readPreference=primary",
-    url: "http://wohlig.io"
+    mongodbUrl:
+        "mongodb+srv://admin:admin@cluster0-vjbdu.gcp.mongodb.net/wohligFramework?readPreference=primary",
+    url: "https://wohligframework.wohlig.in"
 }
