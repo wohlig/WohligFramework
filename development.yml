@@ -1,0 +1,7 @@
+apps:
+  - script: "index.js"
+    name: "Wohlig Framework --port 3000"
+    watch: false
+    exec_mode: "cluster"
+    env: 
+      NODE_ENV: "development"

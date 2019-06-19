@@ -1,0 +1,41 @@
+version: "1.0"
+stages:
+    - "clone"
+    - "build"
+    - "integration"
+    - "push"
+    - "deploy"
+steps:
+    main_clone:
+        type: "git-clone"
+        description: "Cloning main repository..."
+        repo: "wohlig/wohlig-framework"
+        revision: "${{CF_BRANCH}}"
+        stage: "clone"
+    build:
+        title: "Building Docker Image"
+        type: "build"
+        image_name: "wohlig-framework"
+        tag: "${{CF_BRANCH}}"
+        dockerfile: "DockerfileTest"
+        stage: "build"
+    push:
+        title: "Pushing image to ECR"
+        type: "push"
+        image_name: "wohlig-framework"
+        registry: "uprose-ecr"
+        candidate: "${{build}}"
+        tags:
+            - "${{CF_BRANCH}}"
+        stage: "push"
+    deploy:
+        title: Running Deploy Script
+        type: deploy
+        kind: kubernetes
+        cluster: UproseFinmart
+        namespace: test
+        service: wohlig-framework
+        candidate:
+            image: "${{build}}"
+            registry: uprose-ecr
+        stage: "deploy"
