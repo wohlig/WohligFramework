@@ -17,7 +17,7 @@ router.get("/ip", (req, res) => {
         qs: { format: "json" }
     }
 
-    request(options, function(error, response, body) {
+    request(options, function(err, response, body) {
         if (err) {
             res.callback(err)
         } else if (body) {
