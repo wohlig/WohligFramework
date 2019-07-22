@@ -9,8 +9,8 @@ steps:
     main_clone:
         type: "git-clone"
         description: "Cloning main repository..."
-        repo: "wohlig/wohlig-framework"
-        revision: "${{CF_BRANCH}}"
+        repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
+        revision: '${{CF_REVISION}}'
         stage: "clone"
     build:
         title: "Building Docker Image"
