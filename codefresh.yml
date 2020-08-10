@@ -9,8 +9,8 @@ steps:
     main_clone:
         type: "git-clone"
         description: "Cloning main repository..."
-        repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
-        revision: '${{CF_REVISION}}'
+        repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
+        revision: "${{CF_REVISION}}"
         stage: "clone"
     build:
         title: "Building Docker Image"
@@ -19,15 +19,7 @@ steps:
         tag: "${{CF_BRANCH}}"
         dockerfile: "Dockerfile"
         stage: "build"
-    push:
-        title: "Pushing image to ECR"
-        type: "push"
-        image_name: "wohlig-framework"
-        registry: "uprose-ecr"
-        candidate: "${{build}}"
-        tags:
-            - "${{CF_BRANCH}}"
-        stage: "push"
+        registry: "${{ecr}}"
     deploy:
         title: Running Deploy Script
         type: deploy
