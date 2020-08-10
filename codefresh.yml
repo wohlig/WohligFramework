@@ -2,8 +2,6 @@ version: "1.0"
 stages:
     - "clone"
     - "build"
-    - "integration"
-    - "push"
     - "deploy"
 steps:
     main_clone:
