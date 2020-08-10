@@ -12,7 +12,8 @@
         "serve": "docker run -p 3000:3000 wohlig/wohlig-framework:latest"
     },
     "dependencies": {
-        "wohlig-framework-core": "latest"
+        "async": "^3.2.0",
+        "wohlig-framework-core": "^0.1.7"
     },
     "devDependencies": {
         "@babel/core": "^7.1.2",
