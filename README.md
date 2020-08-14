@@ -10,7 +10,7 @@
 
 4. Submit Issue
 
-### 1. Introduction ### <a name="introduction"></a>
+### 1. Introduction <a name="introduction"></a>
 
 Wohlig Framework can use used as Git Template for Projects related to microservices.
 
