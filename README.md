@@ -16,7 +16,7 @@ Wohlig Framework can use used as Git Template for Projects related to microservi
 
 This is an Opinionated Framework which uses the following Technologies for the Microservices
 
-1. [NodeJS](https://nodejs.org) - _12.0.0 or Above_
+1. [NodeJS](https://nodejs.org){:target="_blank"} - \_12.0.0 or Above_
 
 2. [MongoDB](www.mongodb.com/try/download/community) - _4.2.2 or Above_
 
