@@ -6,9 +6,9 @@
 
 2. [Get Started](#get-started)
 
-3. Documentation
+3. [Documentation](#documentation)
 
-4. Submit Issue
+4. [Submit Issue](https://github.com/wohlig/wohligFramework/issues)
 
 ### 1. Introduction <a name="introduction"></a>
 
@@ -22,7 +22,7 @@ This is an Opinionated Framework which uses the following Technologies for the M
 
 3. [CodeFresh](https://codefresh.io) as CI CD Pipeline
 
-### 2. [Get Started] {#get-started}
+### 2. Get Started <a name="get-started"></a>
 
 1. Create Git Repository using Wohlig Framework as the Template. [Read More](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 
@@ -75,7 +75,7 @@ MongoDB Connected
 
 In Case you find issues please following the steps provided above or contact the core team of Wohlig Transformation.
 
-### 3. Documentation
+### 3. Documentation <a name="get-started">Documentation</a>
 
 1. Web Framework: [Express](https://expressjs.com)
 
