@@ -13,7 +13,8 @@
     },
     "dependencies": {
         "async": "^3.2.0",
-        "wohlig-framework-core": "^0.2.0"
+        "dotenv": "^8.2.0",
+        "wohlig-framework-core": "https://github.com/wohlig/wohlig-framework-core.git"
     },
     "devDependencies": {
         "@babel/core": "^7.1.2",
@@ -22,7 +23,7 @@
         "@babel/preset-env": "^7.1.0",
         "@babel/register": "^7.0.0",
         "@babel/runtime": "^7.1.2",
-        "eslint": "^5.6.0"
+        "eslint": "^7.6.0"
     },
     "prettier": {
         "trailingComma": "none",
