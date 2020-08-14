@@ -16,7 +16,7 @@
 
 This is an Opinionated Framework which uses the following Technologies for the Microservices
 
-1. [NodeJS](https://nodejs.org) - \_12.0.0 or Above\_
+1. [NodeJS](https://nodejs.org) - _12.0.0 or Above_
 
 2. [MongoDB](www.mongodb.com/try/download/community) - _4.2.2 or Above_
 
@@ -50,12 +50,12 @@ yarn install
 ```
 
 6. Change the project name in the following files
-   
-   1. **production.yml** - Change the Value name with [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
-   
-   2. **package.json** - Change the name and description with name in [Kebab Case](https://wiki.c2.com/?KebabCase)
-   
-   3. **.env** - Change APP_ID with the project Name in [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
+
+    1. **production.yml** - Change the Value name with [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
+
+    2. **package.json** - Change the name and description with name in [Kebab Case](https://wiki.c2.com/?KebabCase)
+
+    3. **.env** - Change APP_ID with the project Name in [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
 
 7. Run the Application with Yarn
 
