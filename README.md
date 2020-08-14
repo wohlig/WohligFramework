@@ -76,7 +76,7 @@ MongoDB Connected
 
 In Case you find issues please following the steps provided above or contact the core team of Wohlig Transformation.
 
-### 3. Documentation <a name="get-started">Documentation</a>
+### 3. Documentation <a name="get-started"></a>
 
 1. Web Framework: [Express](https://expressjs.com)
 
