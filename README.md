@@ -94,6 +94,6 @@ In Case you find issues please following the steps provided above or contact the
 
 8. CI CD: [CodeFresh](https://codefresh.io)
 
-### Submit Issue
+### 4. Submit Issue
 
 Submit us on [Github Repository](https://github.com/wohlig/wohligFramework/issues)
