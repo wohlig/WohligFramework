@@ -2879,9 +2879,10 @@ which@^2.0.1:
     isexe "^2.0.0"
 
 "wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core.git":
-  version "0.2.4"
-  resolved "https://github.com/wohlig/wohlig-framework-core.git#de6fd0f3b85fa73dd147b591a1b3a5024bc055dd"
+  version "0.2.6"
+  resolved "https://github.com/wohlig/wohlig-framework-core.git#a512c63f02c3af89085aaea126a532f029547de8"
   dependencies:
+    ajv "^6.12.3"
     async "^3.2.0"
     body-parser "^1.18.3"
     chai "^4.2.0"

@@ -39,7 +39,7 @@ This is an Opinionated Framework which uses the following Technologies for the M
 6. Create **.env** file in your local Repository and add the following details content in the file. [Read More](https://www.npmjs.com/package/dotenv)
 
 ```shell
-APP_ID=Wohlig Framework
+APP_ID=WohligFramework
 PORT=3000
 MONGODB_URL=mongodb://localhost:27017/wohlig-framework?readPreference=primary
 LOG_LEVEL=debug
