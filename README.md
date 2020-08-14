@@ -12,7 +12,7 @@
 
 ### 1. Introduction <a name="introduction"></a>
 
-Wohlig Framework can use used as Git Template for Projects related to microservices.
+**Wohlig Framework** can use used as Git Template for Projects related to microservices.
 
 This is an Opinionated Framework which uses the following Technologies for the Microservices
 
@@ -34,14 +34,13 @@ This is an Opinionated Framework which uses the following Technologies for the M
 
 5. Clone the Repository in your local machine. [Read More](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-6. Create .env file in your local Repository and add the following details content in the file. [Read More](https://www.npmjs.com/package/dotenv)
+6. Create **.env** file in your local Repository and add the following details content in the file. [Read More](https://www.npmjs.com/package/dotenv)
 
 ```shell
 APP_ID=Wohlig Framework
 PORT=3000
 MONGODB_URL=mongodb://localhost:27017/wohlig-framework?readPreference=primary
 LOG_LEVEL=debug
-
 ```
 
 5. Install the Dependencies for the framework using yarn
@@ -51,12 +50,12 @@ yarn install
 ```
 
 6. Change the project name in the following files
-
-    1. production.yml - Change the Value name with [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
-
-    2. package.json - Change the name and description with name in [Kebab Case](https://wiki.c2.com/?KebabCase)
-
-    3. .env - Change APP_ID with the project Name in [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
+   
+   1. **production.yml** - Change the Value name with [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
+   
+   2. **package.json** - Change the name and description with name in [Kebab Case](https://wiki.c2.com/?KebabCase)
+   
+   3. **.env** - Change APP_ID with the project Name in [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
 
 7. Run the Application with Yarn
 
