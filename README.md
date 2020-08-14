@@ -20,7 +20,9 @@ This is an Opinionated Framework which uses the following Technologies for the M
 
 2. [MongoDB](www.mongodb.com/try/download/community) - _4.2.2 or Above_
 
-3. [CodeFresh](https://codefresh.io) as CI CD Pipeline
+3. [Docker](https://www.docker.com/) - Container
+
+4. [CodeFresh](https://codefresh.io) - CI CD Pipeline
 
 ### 2. Get Started <a name="get-started"></a>
 
@@ -87,6 +89,10 @@ In Case you find issues please following the steps provided above or contact the
 5. Date Time Manipulate: [moment.js](https://momentjs.com)
 
 6. Utility: [Lodash](https://lodash.com), [async](https://caolan.github.io/async/v3/)
+
+7. Container: [Docker](https://www.docker.com/)
+
+8. CI CD: [CodeFresh](https://codefresh.io)
 
 ### Submit Issue
 
