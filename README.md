@@ -53,11 +53,11 @@ yarn install
 
 6. Change the project name in the following files
 
-    1. **production.yml** - Change the Value name with [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
+    1. **production.yml** - Change the Value name with [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm) without space
 
     2. **package.json** - Change the name and description with name in [Kebab Case](https://wiki.c2.com/?KebabCase)
 
-    3. **.env** - Change APP_ID with the project Name in [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm)
+    3. **.env** - Change APP_ID with the project Name in [Title Case](https://www.grammar-monster.com/lessons/capital_letters_title_case.htm) without space
 
 7. Run the Application with Yarn
 
