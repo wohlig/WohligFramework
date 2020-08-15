@@ -24,6 +24,8 @@ This is an Opinionated Framework which uses the following Technologies for the M
 
 4. [CodeFresh](https://codefresh.io) - CI CD Pipeline
 
+5. [Yarn](https://yarnpkg.com/) Package Manager - _1.0.0 or above_
+
 ### 2. Get Started <a name="get-started"></a>
 
 1. Create Git Repository using Wohlig Framework as the Template. [Read More](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
