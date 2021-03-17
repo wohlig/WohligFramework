@@ -2836,9 +2836,10 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-"wohlig-framework-core@https://github.com/wohlig/wohlig-framework-core":
-  version "0.2.7"
-  resolved "https://github.com/wohlig/wohlig-framework-core#e4801abcbfddccd2f196389b29ea266728bf4502"
+wohlig-framework-core@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/wohlig-framework-core/-/wohlig-framework-core-0.2.8.tgz#cd7eacbd701f370b7c09b31a7680ab0a85333ebf"
+  integrity sha512-PGJ0E/FW7Au5QHbCun4oGocgl0RoYytQbhugCkELFqFBvokUYnTDZDlVHs5/tAxsSYwDApv87mH53w+UDY3W6g==
   dependencies:
     ajv "6"
     async "^3.2.0"
