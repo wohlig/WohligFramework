@@ -12,15 +12,15 @@
         "serve": "docker run -p 3000:3000 wohlig/wohlig-framework:latest"
     },
     "dependencies": {
-        "wohlig-framework-core": "^0.2.8"
-    },
-    "devDependencies": {
+        "wohlig-framework-core": "^0.2.8",
         "@babel/core": "^7.13.10",
         "@babel/plugin-transform-async-to-generator": "^7.13.0",
         "@babel/plugin-transform-runtime": "^7.13.10",
         "@babel/preset-env": "^7.13.10",
         "@babel/register": "^7.13.8",
-        "@babel/runtime": "^7.13.10",
+        "@babel/runtime": "^7.13.10"
+    },
+    "devDependencies": {
         "dotenv": "^8.2.0",
         "eslint": "^7.22.0"
     },
