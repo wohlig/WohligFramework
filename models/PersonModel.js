@@ -17,7 +17,8 @@ export default {
         const count = await Person.count({
             status: { $in: ["enabled", "disabled"] }
         }).exec()
-        return { data, count, maxPage: Math.ceil(count / limit) }
+        const maxPage = Math.ceil(count / limit)
+        return { data, count, maxPage }
     },
     getOne: async (id) => {
         return await Person.findOne({
