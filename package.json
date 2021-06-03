@@ -78,10 +78,10 @@
             "ajv": true,
             "_": true,
             "ValidateRequest": true,
-            "StudentModel": true,
+            "PersonModel": true,
             "mongoose": true,
             "Schema": true,
-            "Student": true
+            "Person": true
         }
     },
     "bugs": {
