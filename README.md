@@ -16,9 +16,9 @@
 
 This is an Opinionated Framework which uses the following Technologies for the Microservices
 
-1. [NodeJS](https://nodejs.org) - _12.0.0 or Above_
+1. [NodeJS](https://nodejs.org) - _14.0.0 or Above_
 
-2. [MongoDB](www.mongodb.com/try/download/community) - _4.2.2 or Above_
+2. [MongoDB](www.mongodb.com/try/download/community) - _4.4.0 or Above_
 
 3. [Docker](https://www.docker.com/) - Container
 
@@ -30,9 +30,9 @@ This is an Opinionated Framework which uses the following Technologies for the M
 
 1. Create Git Repository using Wohlig Framework as the Template. [Read More](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 
-2. Make sure you have MongoDB _4.2.2 or above_ installed on your local machine. [Read More](https://docs.mongodb.com/manual/installation/)
+2. Make sure you have MongoDB _4.4.0 or above_ installed on your local machine. [Read More](https://docs.mongodb.com/manual/installation/)
 
-3. Make Sure you have NodeJS _12.0.0 or above_ installed on your local machine. [Read More](https://nodejs.org/en/)
+3. Make Sure you have NodeJS _14.0.0 or above_ installed on your local machine. [Read More](https://nodejs.org/en/)
 
 4. Make Sure the Yarn _1.0.0 or above_ installed on your computer. [Read More ](https://yarnpkg.com)
 
