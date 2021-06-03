@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "description": "Wohlig Framework",
     "main": "app.js",
-    "repository": "https://github.com/WohligTechnology/WohligFramework.git",
+    "module": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WohligTechnology/WohligFramework.git"
+    },
     "author": "Chintan Shah <chintan@wohlig.com>",
     "license": "MIT",
     "scripts": {
@@ -12,17 +16,22 @@
         "serve": "docker run -p 3000:3000 wohlig/wohlig-framework:latest"
     },
     "dependencies": {
-        "wohlig-framework-core": "^0.2.8",
-        "@babel/core": "^7.13.10",
-        "@babel/plugin-transform-async-to-generator": "^7.13.0",
-        "@babel/plugin-transform-runtime": "^7.13.10",
-        "@babel/preset-env": "^7.13.10",
-        "@babel/register": "^7.13.8",
-        "@babel/runtime": "^7.13.10"
+        "ajv": "^8.5.0",
+        "async": "^3.2.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "ejs": "^3.1.6",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "mongoose": "^5.12.12",
+        "node-cron": "^3.0.0",
+        "require-all": "^3.0.0"
     },
     "devDependencies": {
-        "dotenv": "^8.2.0",
-        "eslint": "^7.22.0"
+        "dotenv": "^8.6.0",
+        "eslint": "^7.27.0"
     },
     "prettier": {
         "trailingComma": "none",
@@ -73,5 +82,12 @@
             "Schema": true,
             "Student": true
         }
+    },
+    "bugs": {
+        "url": "https://github.com/WohligTechnology/WohligFramework/issues"
+    },
+    "homepage": "https://github.com/WohligTechnology/WohligFramework#readme",
+    "directories": {
+        "lib": "lib"
     }
 }
