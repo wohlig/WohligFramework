@@ -14,7 +14,7 @@ export default {
             .skip(skip)
             .limit(limit)
             .exec()
-        const count = await Person.count({
+        const count = await Person.countDocuments({
             status: { $in: ["enabled", "disabled"] }
         }).exec()
         const maxPage = Math.ceil(count / limit)
