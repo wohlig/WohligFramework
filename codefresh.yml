@@ -22,10 +22,10 @@ steps:
         title: Running Deploy Script
         type: deploy
         kind: kubernetes
-        cluster: UproseFinmart
+        cluster: "${{cluster}}"
         namespace: production
         service: wohlig-framework
         candidate:
             image: "${{build}}"
-            registry: uprose-ecr
+            registry: "${{ecr}}"
         stage: "deploy"
