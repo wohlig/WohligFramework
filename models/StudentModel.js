@@ -4,7 +4,7 @@ export default {
      * @param {number} input any number
      * @returns {number} that number, plus one.
      */
-    search: async function(_query, callback) {
+    search: async function (_query, callback) {
         const students = await Student.find().exec()
         callback(null, students)
     },
@@ -13,8 +13,9 @@ export default {
             _id: data.id
         }).exec(callback)
     },
-    saveData: (data, callback) => {
-        const student = new Student(data)
-        student.save(callback)
+    saveData: async (data) => {
+        let student = new Student(data)
+        let obj = await student.save()
+        return obj
     }
 }

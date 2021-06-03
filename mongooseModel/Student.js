@@ -1,5 +1,5 @@
 var schema = new Schema({
-    name: String,
+    name: { type: String, unique: true },
     parent: String,
     email: String
 })
