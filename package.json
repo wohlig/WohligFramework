@@ -81,7 +81,10 @@
             "PersonModel": true,
             "mongoose": true,
             "Schema": true,
-            "Person": true
+            "Person": true,
+            "require": true,
+            "ObjectId": true,
+            "pwd": true
         }
     },
     "bugs": {
